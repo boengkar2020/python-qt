@@ -13,4 +13,3 @@ if __name__ == '__main__':
     label = QLabel("Hello World")
     label.show()
     sys.exit(app.exec_())
-    

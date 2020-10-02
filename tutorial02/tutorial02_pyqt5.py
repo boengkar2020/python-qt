@@ -17,7 +17,7 @@ def click_handle():
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    btn = QPushButton("Hello World")
+    btn = QPushButton("Click Me!!")
     btn.clicked.connect(click_handle)
     btn.show()
     sys.exit(app.exec_())
