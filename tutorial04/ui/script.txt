@@ -1,0 +1,5 @@
+#untuk PyQt5
+pyuic5 preferences.ui -o _preferences.py
+
+#untuk PySide2
+pyside2-uic preferences.ui -o _preferences_pyside2.py
